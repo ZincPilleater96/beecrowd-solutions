@@ -1,7 +1,7 @@
 package beecrowd;
 import java.util.Scanner;
 
-public class bc1011 {
+public class BC1011 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); 
         int radius = scanner.nextInt();
