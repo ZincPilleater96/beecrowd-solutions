@@ -1,4 +1,4 @@
-package beecrowd;
+package pck;
 import java.util.Scanner;
 
 public class BC1009 {
