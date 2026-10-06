@@ -1,7 +1,7 @@
 package beecrowd;
 import java.util.Scanner;
 
-public class bc1009 {
+public class BC1009 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); 
         String name;
