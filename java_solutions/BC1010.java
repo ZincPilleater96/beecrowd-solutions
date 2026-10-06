@@ -1,7 +1,7 @@
 package beecrowd;
 import java.util.Scanner;
 
-public class bc1010 {
+public class BC1010 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double total = 0.0;
