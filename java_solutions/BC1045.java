@@ -41,7 +41,7 @@ public class BC1045 {
         }
 
         if (A >= B + C) {
-            System.out.println("NAO FORMA TRIANGULO"); //check if it can be a triangle
+            System.out.println("NAO FORMA TRIANGULO"); //check if it can be a triangle, if true = isnt a triangle
         } else {
             if (A * A == B * B + C * C) {
                 System.out.println("TRIANGULO RETANGULO");
