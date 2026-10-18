@@ -1,6 +1,6 @@
 package pck;
 import java.util.Scanner;
-public class BC1080 {
+public class BC1080_forloop {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
             int[] arr = new int[100];
