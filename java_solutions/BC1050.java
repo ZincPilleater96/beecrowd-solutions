@@ -1,6 +1,4 @@
 package pck;
-
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class BC1050 {
