@@ -2,7 +2,7 @@ package pck;
 
 import java.util.Scanner;
 
-public class BC1075 {
+public class BC1075_forloop {
     public static void main(String[] args) {
 Scanner scanner = new Scanner(System.in);
 int n = scanner.nextInt();
