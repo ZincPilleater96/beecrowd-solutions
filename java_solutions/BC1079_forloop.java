@@ -1,6 +1,6 @@
 package pck;
 import java.util.Scanner;
-public class BC1079 {
+public class BC1079_forloop {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
             int n = scanner.nextInt();
