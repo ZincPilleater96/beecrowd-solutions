@@ -53,9 +53,9 @@ public class cowsandbulls {
             if (cx4 == cy4) bulls++;
             
             if (cy1 == cx2 || cy1 == cx3 || cy1 == cx4) cows++;
-            if (cy2 == cx1 ||cy2 == cx3 || cy2 == cx4) cows++;
-            if (cy3 == cx1 ||  cy3 == cx2 || cy3 == cx4) cows++;
-            if (cy4 == cx1 || cy4 ==cy2 || cy4 == cy3) cows++;
+            if (cy2 == cx1 || cy2 == cx3 || cy2 == cx4) cows++;
+            if (cy3 == cx1 || cy3 == cx2 || cy3 == cx4) cows++;
+            if (cy4 == cx1 || cy4 == cx2 || cy4 == cx3) cows++;
             System.out.println("bulls: " + bulls + ", cows: " + cows);
             
             if (bulls == 4) {
