@@ -15,4 +15,3 @@ public class BC1172 {
 		scanner.close();
 	}
 }
-	
