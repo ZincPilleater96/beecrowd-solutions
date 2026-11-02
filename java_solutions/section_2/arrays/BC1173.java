@@ -20,12 +20,7 @@ public class BC1173 {
     }
 }
 		
-		
-		
-		
-		
-		
-		
+				
 //		Scanner scanner = new Scanner(System.in);
 //		int n = scanner.nextInt();
 //		for (int j = 2; j <= n; j += 2) {
