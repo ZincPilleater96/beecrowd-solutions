@@ -1,99 +1,197 @@
-i want you to stylize the code from now on like this everywhere:
+ i want you to stylize the code from now on like this everywhere(every single chat we have about coding):
+
 package sorting;
+
 import java.util.Scanner;
+
 
 public class StandardSelection {
+
     public static Scanner scanner = new Scanner(System.in);
+
 //---------------------------------------------------
+
     public static void selectionSort(int[] arr, int n) {
+
         for (int i = 0; i < n - 1; i++) {
+
             int maxp = 0; 
+
             for (int j = 1; j < n - i; j++) {
+
                 if (arr[j] > arr[maxp]) {
+
                     maxp = j;
+
                 }
+
             }
+
             int lastindex = n - 1 - i;
+
             if (maxp != lastindex) {
+
                 int temp = arr[lastindex];
+
                 arr[lastindex] = arr[maxp];
+
                 arr[maxp] = temp;
+
             }
+
         }
+
         printArray(arr);
+
     }
+
 //---------------------------------------------------
+
     public static void readArray() {
+
         int n = scanner.nextInt();
+
         int[] numbers = new int[n];
+
         for (int i = 0; i < n; i++) {
+
             numbers[i] = scanner.nextInt();
+
         }
+
         selectionSort(numbers, n);
+
     }
+
 //---------------------------------------------------
+
     public static void printArray(int[] arr) {
+
         for (int num : arr) {
+
             System.out.print(num + " ");
+
         }
+
     }
+
 //---------------------------------------------------
+
     public static void main(String[] args) {
+
         readArray(); 
+
     }
+
 }
+
 //---------------------------------------------------
+
 //64 25 12 22 11
+
 //11 12 22 25 64
+
 OR like this:
+
 package sorting;
+
 import java.util.Scanner;
 
+
 public class SSMainMethod {    
+
     public static Scanner scanner = new Scanner(System.in);
+
 //---------------------------------------------------
+
     public static void selectionSort(int[] arr) {
+
         int n = arr.length;
+
         for (int i = 0; i < n - 1; i++) {
+
             int maxp = 0; 
+
             for (int j = 1; j < n - i; j++) {
+
                 if (arr[j] > arr[maxp]) {
+
                     maxp = j;
+
                 }
+
             }
+
             int lastindex = n - 1 - i;
+
             if (maxp != lastindex) {
+
                 int temp = arr[lastindex];
+
                 arr[lastindex] = arr[maxp];
+
                 arr[maxp] = temp;
+
             }
+
         }
+
     }
+
 //---------------------------------------------------
+
     public static int[] readArray() {
+
         int n = scanner.nextInt();
+
         int[] numbers = new int[n];
+
         for (int i = 0; i < n; i++) {
+
             numbers[i] = scanner.nextInt();
+
         }
+
         return numbers;
+
     }
+
 //---------------------------------------------------
+
     public static void printArray(int[] arr) {
+
         for (int num : arr) {
+
             System.out.print(num + " ");
+
         }
+
         System.out.println();
+
     }
+
 //---------------------------------------------------
+
     public static void main(String[] args) {
+
         int[] numbers = readArray();
+
         selectionSort(numbers);
+
         printArray(numbers);
+
     }
+
 }
+
 //---------------------------------------------------
+
 //64 25 12 22 11
+
 //11 12 22 25 64
+
 --------------
+
 ask me how i want my code each time in every chat. remember this for every chat.
+
+i want all methods to be called in from the main method. use passing by reference(Use primitive types (int, double, etc.) if you want the method to use or calculate a value without changing your original variable in main. Use arrays or objects if you want the method to permanently change the data so the updates show up back in main). just remember that i want my methods called in the main method. 
