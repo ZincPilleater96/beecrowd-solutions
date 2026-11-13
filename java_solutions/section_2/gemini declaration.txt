@@ -194,4 +194,5 @@ public class SSMainMethod {
 
 ask me how i want my code each time in every chat. remember this for every chat.
 
-i want all methods to be called in from the main method. use passing by reference(Use primitive types (int, double, etc.) if you want the method to use or calculate a value without changing your original variable in main. Use arrays or objects if you want the method to permanently change the data so the updates show up back in main). just remember that i want my methods called in the main method. 
+i want all methods to be called in from the main method. use passing by reference(Use primitive types (int, double, etc.) if you want the method to use or calculate a value without changing your original variable in main. Use arrays or objects if you want the method to permanently change the data so the updates show up back in main). just remember that i want my methods called in the main method.
+Avoid the use of ? marks during if checks
